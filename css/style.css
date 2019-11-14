@@ -1,0 +1,313 @@
+
+
+body {
+	
+	
+	/*background: url("../images/brickwall.png");*/
+	background :url("../images/redbrickwall.jpg");*/
+
+	color: black;
+	font-family: "Georgia";
+	font-size: 18px;
+	
+
+}
+
+.mainContent {
+	min-height: 80vh; /* will cover the 100% of viewport */
+
+}
+
+.container {
+	padding-bottom: 0px;
+}
+
+#brandName{
+	float:left;
+	padding-top: 10px;
+	padding-left:5px;
+	font-weight: bold;
+	color: gold;
+
+}
+
+.containerBody {
+
+	/*background-color: white; */
+	
+	padding: 30px;
+	padding-top: 0px;
+
+}
+/*padding-top: 30px;
+}*/
+ul {
+	list-style-type: none;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	bottom:0;
+
+	background-color:transparent;
+	/*background: url("../images/brickwall.png");*/
+	bottom: 0;
+	width: 100%;
+}
+
+.img-responsive{
+	padding-top: 5px;
+}
+
+footer h3 {
+	color:white;
+	text-shadow: 2px 2px grey;
+
+	
+
+
+}
+
+
+form.inputWidths input,textarea {
+	width:500px;
+}
+
+form.inputWidths textarea.extendHeight {
+	height:150px;
+
+}
+
+form.inputWidths {
+	text-align:center;
+}
+
+.center-div
+{
+	margin: 0 auto;
+	display:block;
+	width: 100px; 
+}
+
+.wpcf7-recaptcha > div {
+	margin: 0 0 15px auto;
+}
+
+ul.nav li a:hover {
+	color:maroon;
+	font-weight: normal;
+
+}
+
+
+
+div[id^="dynamic_slide_"] a{
+	color:white;
+}
+
+
+
+a:hover {
+	
+	color:grey;
+
+}
+
+a {
+
+	color: white;
+}
+
+.jumbotron a {
+	color:blue;
+}
+.jumbotron h2 a {
+	color:maroon;
+}
+.jumbotron .box a {
+	color:white;
+}
+
+.navbar {
+	padding:0;
+	margin:0px; 
+	/*	background-color*/
+}
+
+.pageTitle{
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+h1, h2 {
+
+	margin-top:0px
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	text-align: center;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: right;
+}
+
+
+
+h2 {
+	color:maroon;
+
+
+}
+
+p {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.jumbotron {
+	opacity: .99;
+	margin:2px;
+	
+}
+
+
+
+
+img {
+	padding-bottom: 10px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.container-fluid {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.jumbotron {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	form.inputWidths input {
+		width:200px;
+	}
+	form.inputWidths textarea {
+		width:200px;
+	}
+
+}
+
+.bioInfo h2{
+	margin-top:0px;
+}
+
+.bioInfo a{
+	color:DarkGray;
+
+}
+
+
+/* centered columns styles */
+.row-centered {
+	text-align:center;
+}
+.col-centered {
+	display:inline-block;
+	float:none;
+	/* reset the text-align */
+	text-align:center;
+	/* inline-block space fix */
+	margin-right:-2px;
+	margin-left:-2px;
+}
+
+.navDropDown {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color: maroon;
+	/*background-image:url("../images/redbrickwall.jpg");*/
+
+	z-index: 500;
+}
+
+.icon-bar {
+
+	color:white;
+	background-color: white; 
+}
+
+.pageBody {
+
+	padding-top: 20px;
+}
+
+.noLine {
+	
+	box-shadow: inset 0 0 0 rgba(255, 255, 255, .1);
+
+}
+
+
+hr {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 1px;
+	/* Set the hr color */
+	color:maroon; 
+	background-color:maroon;*/
+}
+
+
+#brandImage {
+
+	width:200%;
+	padding-top:20px;
+
+/*height:auto; 
+display:block;*/
+
+}
+
+nav {
+	background-color:transparent;
+}
+
+footer {
+	background-color: maroon;
+}
+
+
+.text-center::before{
+	content:"";
+	margin-left:calc(100% - 75%);
+} 
+
+/*.removeBottomTopPadding {
+
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+	padding-top:0px;
+	}*/
+
+
+
+
+

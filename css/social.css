@@ -1,0 +1,36 @@
+.box a{
+  text-decoration:none;
+  color:white;
+  font-size: 40px;
+  margin: 5px;
+  display:inline-flex;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  float: none;
+  transition: 0.5s all;
+}
+
+.box a:hover{
+  margin-top: -10px;
+  color: white;
+}
+
+.fb {
+  background: rgb(59,89,152);
+
+}
+.tw {
+
+  background: rgb(29,161,242);
+}
+.ld {
+
+  background: rgb(0,119,181);
+}
+.em {
+
+  background: rgb(255,0,0);
+}
